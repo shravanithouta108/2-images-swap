@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    margin:50px 30px 0 30px;
+    font-size: 15pt;
+    background-color: wheat;
+}
+    
+.container{
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}    
+
+form{
+        border: 2px solid black;
+        padding:30px;
+        border-radius: 20px;
+        background-color: orange;
+        box-shadow:-8px -8px 15px dodgerblue,5px 5px 15px dodgerblue;
+
+}
+
+.img_position
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+#a,#b{
+    border: 5px solid black;
+    border-radius:15px;
+}
+
+#btn{
+    margin-top: 40px;
+    height:50px;
+    width:40%;
+    background-color:skyblue;
+    color:red;
+    font-size:1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 4px groove grey;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}

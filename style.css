@@ -13,10 +13,25 @@ body {
         height:100vh;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-top;
+        margin-top: 50px;
 }    
 
+h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight:bloder;
+        font-size:3em;
+        text-decoration:underline;
+        text-transform: capitalize;
+        color:blue;
+
+
+}
+
 form{
+        height:500px;
         border: 2px solid black;
         padding:30px;
         border-radius: 20px;
@@ -50,12 +65,10 @@ form{
     text-transform: uppercase;
     border: 4px groove grey;
 }
-
 #btn:hover{
         background-color:pink;
 
 }
-
 .btn{
     display: flex;
     justify-content: center;
